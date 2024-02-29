@@ -1,0 +1,1584 @@
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var heart as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 13; ]
+    module Fonts {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 16; ]
+    module JsonData {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 16; ]
+        <init> {
+        }
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 19; ]
+    module Layouts {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 19; ]
+        <init> {
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 20; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_start:
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 21 12 ]
+            [ "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_start" "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_stop" ]
+            %rez_cmp_local_text_TimeLabel.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 5;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "TimeLabel";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            %tmp.13 = getm $.Toybox.Graphics;
+            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :text;
+            %tmp.19 = "ERR";
+            %tmp.20 = dup %tmp.16;
+            %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
+            %tmp.23 = const :justification;
+            %tmp.24 = getm $.Toybox.Graphics;
+            %tmp.25 = getv %tmp.24 :TEXT_JUSTIFY_CENTER;
+            %tmp.26 = dup %tmp.21;
+            %tmp.27 = aputv %tmp.26 %tmp.23 %tmp.25;
+            %tmp.29 = const :font;
+            %tmp.30 = getm $.Toybox.Graphics;
+            %tmp.31 = getv %tmp.30 :FONT_NUMBER_THAI_HOT;
+            %tmp.32 = dup %tmp.27;
+            %tmp.33 = aputv %tmp.32 %tmp.29 %tmp.31;
+            %tmp.1 = newc %tmp.4 (%tmp.33);
+            lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 23 12 ]
+            [ "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_start" "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_stop" ]
+            %rez_cmp_local_text_bottom.2 = local;
+            %tmp.36 = getm $.Toybox.WatchUi;
+            %tmp.37 = getv function ? %tmp.36 :Text;
+            %tmp.38 = newd 4;
+            %tmp.40 = const :identifier;
+            %tmp.41 = "bottom";
+            %tmp.42 = dup %tmp.38;
+            %tmp.43 = aputv %tmp.42 %tmp.40 %tmp.41;
+            %tmp.45 = const :color;
+            %tmp.46 = getm $.Toybox.Graphics;
+            %tmp.47 = getv %tmp.46 :COLOR_BLUE;
+            %tmp.48 = dup %tmp.43;
+            %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
+            %tmp.51 = const :justification;
+            %tmp.52 = getm $.Toybox.Graphics;
+            %tmp.53 = getv %tmp.52 :TEXT_JUSTIFY_CENTER;
+            %tmp.54 = dup %tmp.49;
+            %tmp.55 = aputv %tmp.54 %tmp.51 %tmp.53;
+            %tmp.57 = const :font;
+            %tmp.58 = getm $.Toybox.Graphics;
+            %tmp.59 = getv %tmp.58 :FONT_SMALL;
+            %tmp.60 = dup %tmp.55;
+            %tmp.61 = aputv %tmp.60 %tmp.57 %tmp.59;
+            %tmp.34 = newc %tmp.37 (%tmp.61);
+            lputv %rez_cmp_local_text_bottom.2 %tmp.34;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 25 12 ]
+            [ "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_start" "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_stop" ]
+            %rez_cmp_local_text_sec.3 = local;
+            %tmp.64 = getm $.Toybox.WatchUi;
+            %tmp.65 = getv function ? %tmp.64 :Text;
+            %tmp.66 = newd 4;
+            %tmp.68 = const :identifier;
+            %tmp.69 = "sec";
+            %tmp.70 = dup %tmp.66;
+            %tmp.71 = aputv %tmp.70 %tmp.68 %tmp.69;
+            %tmp.73 = const :color;
+            %tmp.74 = getm $.Toybox.Graphics;
+            %tmp.75 = getv %tmp.74 :COLOR_BLUE;
+            %tmp.76 = dup %tmp.71;
+            %tmp.77 = aputv %tmp.76 %tmp.73 %tmp.75;
+            %tmp.79 = const :justification;
+            %tmp.80 = getm $.Toybox.Graphics;
+            %tmp.81 = getv %tmp.80 :TEXT_JUSTIFY_CENTER;
+            %tmp.82 = dup %tmp.77;
+            %tmp.83 = aputv %tmp.82 %tmp.79 %tmp.81;
+            %tmp.85 = const :font;
+            %tmp.86 = getm $.Toybox.Graphics;
+            %tmp.87 = getv %tmp.86 :FONT_TINY;
+            %tmp.88 = dup %tmp.83;
+            %tmp.89 = aputv %tmp.88 %tmp.85 %tmp.87;
+            %tmp.62 = newc %tmp.65 (%tmp.89);
+            lputv %rez_cmp_local_text_sec.3 %tmp.62;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 27 12 ]
+            [ "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_start" "_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_stop" ]
+            %rez_cmp_local_text_date.4 = local;
+            %tmp.92 = getm $.Toybox.WatchUi;
+            %tmp.93 = getv function ? %tmp.92 :Text;
+            %tmp.94 = newd 5;
+            %tmp.96 = const :identifier;
+            %tmp.97 = "date";
+            %tmp.98 = dup %tmp.94;
+            %tmp.99 = aputv %tmp.98 %tmp.96 %tmp.97;
+            %tmp.101 = const :color;
+            %tmp.102 = getm $.Toybox.Graphics;
+            %tmp.103 = getv %tmp.102 :COLOR_BLUE;
+            %tmp.104 = dup %tmp.99;
+            %tmp.105 = aputv %tmp.104 %tmp.101 %tmp.103;
+            %tmp.107 = const :text;
+            %tmp.108 = "PE";
+            %tmp.109 = dup %tmp.105;
+            %tmp.110 = aputv %tmp.109 %tmp.107 %tmp.108;
+            %tmp.112 = const :justification;
+            %tmp.113 = getm $.Toybox.Graphics;
+            %tmp.114 = getv %tmp.113 :TEXT_JUSTIFY_CENTER;
+            %tmp.115 = dup %tmp.110;
+            %tmp.116 = aputv %tmp.115 %tmp.112 %tmp.114;
+            %tmp.118 = const :font;
+            %tmp.119 = getm $.Toybox.Graphics;
+            %tmp.120 = getv %tmp.119 :FONT_MEDIUM;
+            %tmp.121 = dup %tmp.116;
+            %tmp.122 = aputv %tmp.121 %tmp.118 %tmp.120;
+            %tmp.90 = newc %tmp.93 (%tmp.122);
+            lputv %rez_cmp_local_text_date.4 %tmp.90;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 29 12 ]
+            %tmp.123 = newa Array<WatchUi.Drawable> 4;
+            %tmp.125 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            %tmp.126 = dup %tmp.123;
+            %tmp.127 = aputv %tmp.126 0 %tmp.125;
+            %tmp.129 = lgetv %rez_cmp_local_text_bottom.2;
+            %tmp.130 = dup %tmp.127;
+            %tmp.131 = aputv %tmp.130 1 %tmp.129;
+            %tmp.133 = lgetv %rez_cmp_local_text_sec.3;
+            %tmp.134 = dup %tmp.131;
+            %tmp.135 = aputv %tmp.134 2 %tmp.133;
+            %tmp.137 = lgetv %rez_cmp_local_text_date.4;
+            %tmp.138 = dup %tmp.135;
+            %tmp.139 = aputv %tmp.138 3 %tmp.137;
+            ret %tmp.139;
+_home_adam_Documents_Myfirstpoject_bin_gen_006_B3906_00_source_Rez_mcgen_20_73_stop:
+        }
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 33; ]
+    module Menus {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 33; ]
+        <init> {
+        }
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 36; ]
+    module Strings {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 36; ]
+        <init> {
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
+        var bateria as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; ]
+        var czerwony as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; ]
+        var zielony as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        var color as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        var fioletowy as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        var czarny as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
+        var add_data as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        var heart_rate as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var none as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
+        var battery as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
+        var steps as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
+        var date_color as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
+        var second as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
+        var bialy as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
+        var w_color as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
+        var second2 as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
+        var show_date as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
+        var niebieski as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        var zolty as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
+        var d_color as Symbol;
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
+        var kroki as Symbol;
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 61; ]
+    module Styles {
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 61; ]
+        <init> {
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 62; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 62; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 63; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 66; ]
+        module system_size__menu_header {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 66; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 67; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 68; @position = 18; ]
+            const height as Number = 81;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 71; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 71; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 72; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 73; @position = 18; ]
+            const y as Number = 172;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 76; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 76; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 77; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 80; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 81; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 82; @position = 18; ]
+            const y as Number = 26;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 85; ]
+        module system_icon_dark__about {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 85; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 86; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__about.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 87; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 88; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 89; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 92; ]
+        module system_icon_light__question {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 93; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__question.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 94; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 97; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 97; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 98; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 101; ]
+        module prompt_font__title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 101; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 102 18 ]
+                %tmp.140 = getm $.Toybox.Graphics;
+                %tmp.141 = getv %tmp.140 :TEXT_JUSTIFY_CENTER;
+                %tmp.142 = getm $.Toybox.Graphics;
+                %tmp.143 = getv %tmp.142 :TEXT_JUSTIFY_VCENTER;
+                %tmp.144 = bitor %tmp.141 %tmp.143;
+                putv self :justification %tmp.144;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 103 18 ]
+                %tmp.145 = getm $.Toybox.Graphics;
+                %tmp.146 = getv %tmp.145 :FONT_XTINY;
+                putv self :font %tmp.146;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 102; @position = 18; ]
+            const justification;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 103; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 106; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 106; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 107; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__discard.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 108; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 109; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 110; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 113; ]
+        module system_size__menu_item {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 113; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 114; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 115; @position = 18; ]
+            const height as Number = 68;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 118; ]
+        module system_color_dark__text {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 118; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 120 18 ]
+                %tmp.147 = getm $.Toybox.Graphics;
+                %tmp.148 = getv %tmp.147 :COLOR_TRANSPARENT;
+                putv self :background %tmp.148;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 119; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 120; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 123; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 124; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__discard.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 125; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 128; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 129; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 130; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 133; ]
+        module prompt_size__title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 133; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 134; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 135; @position = 18; ]
+            const height as Number = 39;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 138; ]
+        module confirmation_font__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 138; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 139 18 ]
+                %tmp.149 = getm $.Toybox.Graphics;
+                %tmp.150 = getv %tmp.149 :TEXT_JUSTIFY_CENTER;
+                %tmp.151 = getm $.Toybox.Graphics;
+                %tmp.152 = getv %tmp.151 :TEXT_JUSTIFY_VCENTER;
+                %tmp.153 = bitor %tmp.150 %tmp.152;
+                putv self :justification %tmp.153;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 140 18 ]
+                %tmp.154 = getm $.Toybox.Graphics;
+                %tmp.155 = getv %tmp.154 :FONT_TINY;
+                putv self :font %tmp.155;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 139; @position = 18; ]
+            const justification;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 140; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 143; ]
+        module system_color_dark__background {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 143; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 144; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 145; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 148; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 148; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 149; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 150; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 153; ]
+        module system_size__launch_icon {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 153; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 154; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 155; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 156; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 159; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 159; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 160 18 ]
+                %tmp.156 = getm $.Toybox.WatchUi;
+                %tmp.157 = getv %tmp.156 :KEY_ENTER;
+                putv self :button %tmp.157;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 160; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 163; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 163; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 164 18 ]
+                %tmp.158 = getm $.Toybox.Graphics;
+                %tmp.159 = getv %tmp.158 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.159;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 165 18 ]
+                %tmp.160 = getm $.Toybox.Graphics;
+                %tmp.161 = getv %tmp.160 :FONT_TINY;
+                putv self :font %tmp.161;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 164; @position = 18; ]
+            const justification;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 165; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 168; ]
+        module confirmation_loc__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 169; @position = 18; ]
+            const x as Number = 52;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 170; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 173; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 174; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 175; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 178; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 178; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 179; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 180; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 183; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 184; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 185; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 188; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 189; @position = 18; ]
+            const x as Number = 225;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 190; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 193; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 194; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 195; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 198; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 198; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 199; @position = 18; ]
+            const x as Number = 3;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 200; @position = 18; ]
+            const y as Number = 108;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 203; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 203; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 204; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 205; @position = 18; ]
+            const height as Number = 208;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 208; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 208; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 209; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 210; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 213; ]
+        module prompt_color_light__background {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 214; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 215; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 218; ]
+        module confirmation_input__delete {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 218; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 219 18 ]
+                %tmp.162 = getm $.Toybox.WatchUi;
+                %tmp.163 = getv %tmp.162 :KEY_ENTER;
+                putv self :button %tmp.163;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 219; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 222; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 222; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 224; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 227; ]
+        module system_input__action_menu {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 227; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 228 18 ]
+                %tmp.164 = getm $.Toybox.WatchUi;
+                %tmp.165 = getv %tmp.164 :KEY_ENTER;
+                putv self :button %tmp.165;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 228; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 231; ]
+        module system_icon_light__save {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 232; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__save.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 233; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 236; ]
+        module prompt_color_light__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 236; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 238 18 ]
+                %tmp.166 = getm $.Toybox.Graphics;
+                %tmp.167 = getv %tmp.166 :COLOR_TRANSPARENT;
+                putv self :background %tmp.167;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 237; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 238; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 241; ]
+        module system_loc__subwindow {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 242; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 245; ]
+        module system_icon_light__warning {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 246; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__warning.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 247; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 250; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 252 18 ]
+                %tmp.168 = getm $.Toybox.Graphics;
+                %tmp.169 = getv %tmp.168 :COLOR_TRANSPARENT;
+                putv self :background %tmp.169;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 251; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 252; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 255; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 256; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 257; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 260; ]
+        module activity_color_light__background {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 261; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 262; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 265; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 265; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 266; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 267; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 270; ]
+        module system_size__screen {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 271; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 272; @position = 18; ]
+            const height as Number = 260;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 275; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 276; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 277; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 280; ]
+        module system_color_light__background {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 280; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 281; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 282; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 285; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 285; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 286; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 287; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 290; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 290; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 291; @position = 18; ]
+            const x as Number = 210;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 292; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 295; ]
+        module activity_color_dark__text {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 295; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 297 18 ]
+                %tmp.170 = getm $.Toybox.Graphics;
+                %tmp.171 = getv %tmp.170 :COLOR_TRANSPARENT;
+                putv self :background %tmp.171;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 296; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 297; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 300; ]
+        module confirmation_input__keep {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 301 18 ]
+                %tmp.172 = getm $.Toybox.WatchUi;
+                %tmp.173 = getv %tmp.172 :KEY_DOWN;
+                putv self :button %tmp.173;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 301; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 304; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 304; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 305; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 306; @position = 18; ]
+            const y as Number = 78;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 309; ]
+        module system_icon_dark__search {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 309; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 310; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__search.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 311; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 312; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 313; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 316; ]
+        module activity_color_light__text {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 316; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 318 18 ]
+                %tmp.174 = getm $.Toybox.Graphics;
+                %tmp.175 = getv %tmp.174 :COLOR_TRANSPARENT;
+                putv self :background %tmp.175;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 317; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 318; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 321; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 322; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 323; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 326; ]
+        module system_icon_dark__save {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 327; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__save.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 328; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 330; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 333; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 333; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 335; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 338; ]
+        module system_icon_light__search {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 338; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__search.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 340; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 343; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 343; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 345; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 348; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 348; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 349; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 350; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 353; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 354; @position = 18; ]
+            const x as Number = 225;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 355; @position = 18; ]
+            const y as Number = 172;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 358; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 359; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 360; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 363; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 363; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 365 18 ]
+                %tmp.176 = getm $.Toybox.Graphics;
+                %tmp.177 = getv %tmp.176 :COLOR_TRANSPARENT;
+                putv self :background %tmp.177;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 364; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 365; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 368; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 369; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 370; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 373; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 373; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 375 18 ]
+                %tmp.178 = getm $.Toybox.Graphics;
+                %tmp.179 = getv %tmp.178 :COLOR_TRANSPARENT;
+                putv self :background %tmp.179;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 374; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 375; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 378; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 378; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 379; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__cancel.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 380; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 383; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 383; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 384; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 385; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 388; ]
+        module prompt_loc__title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 389; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 390; @position = 18; ]
+            const y as Number = 19;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 393; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 393; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 394; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 397; ]
+        module prompt_color_light__title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 397; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 399 18 ]
+                %tmp.180 = getm $.Toybox.Graphics;
+                %tmp.181 = getv %tmp.180 :COLOR_TRANSPARENT;
+                putv self :background %tmp.181;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 398; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 399; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 402; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 402; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 403; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 404; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 407; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 407; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 409; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 412; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 413; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 414; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 417; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 417; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__cancel.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 419; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 422; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 422; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 423; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 424; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 427; ]
+        module system_icon_light__about {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 427; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__about.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 429; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 432; ]
+        module system_size__toast_icon {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 432; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 433; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 434; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 435; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 438; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 439; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 442; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 442; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 443; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 444; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 447; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 447; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 448; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 449; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 452; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 452; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 453; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 456; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 456; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 457; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 460; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 461; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 462; @position = 18; ]
+            const y as Number = 172;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 463; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 466; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 467; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 468; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 471; ]
+        module activity_color_dark__background {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 472; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 473; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 476; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 477; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 478; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 481; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 482; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 483; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 486; ]
+        module system_size__menu_icon {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 486; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 487; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 488; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 489; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 492; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 493; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__warning.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 494; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 497; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 497; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 498; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 501; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 502; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__cancel.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 503; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 504; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 505; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 508; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 509; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 510; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 513; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 514; @position = 18; ]
+            const x as Number = 225;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 515; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 518; ]
+        module system_color_light__text {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 518; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 520 18 ]
+                %tmp.182 = getm $.Toybox.Graphics;
+                %tmp.183 = getv %tmp.182 :COLOR_TRANSPARENT;
+                putv self :background %tmp.183;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 519; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 520; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 523; ]
+        module system_icon_light__check {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__check.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 525; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 528; ]
+        module confirmation_input__reject {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 528; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 529 18 ]
+                %tmp.184 = getm $.Toybox.WatchUi;
+                %tmp.185 = getv %tmp.184 :KEY_DOWN;
+                putv self :button %tmp.185;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 529; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 532; ]
+        module system_icon_light__revert {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 532; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 533; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__revert.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 534; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 537; ]
+        module system_size__subwindow {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 537; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 538; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 541; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 543; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 546; ]
+        module system_icon_dark__check {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 547; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__check.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 548; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 549; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 550; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 553; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 553; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 554; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 555; @position = 18; ]
+            const y as Number = 172;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 556; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 559; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 560; @position = 18; ]
+            const x as Number = 210;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 561; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 564; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 565; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 566; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 569; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 573; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 574; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 575; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 578; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 579; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 580; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 583; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 583; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 584; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 585; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 588; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__revert.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 590; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 591; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 592; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 595; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 596; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 600; ]
+        module system_icon_dark__question {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 600; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 601; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__question.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 602; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 603; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 604; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 607; ]
+        module system_icon_light__discard {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 607; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 608; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__discard.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 609; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 612; ]
+        module device_info {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 612; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 614 18 ]
+                %tmp.186 = getm $.Toybox.System;
+                %tmp.187 = getv %tmp.186 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.187;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 613; @position = 18; ]
+            const screenWidth as Number = 260;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 614; @position = 18; ]
+            const screenShape;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 615; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 616; @position = 18; ]
+            const screenHeight as Number = 260;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 617; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 618; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 621; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 622; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 623; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 626; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 626; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 627 18 ]
+                %tmp.188 = getm $.Toybox.Graphics;
+                %tmp.189 = getv %tmp.188 :TEXT_JUSTIFY_CENTER;
+                %tmp.190 = getm $.Toybox.Graphics;
+                %tmp.191 = getv %tmp.190 :TEXT_JUSTIFY_VCENTER;
+                %tmp.192 = bitor %tmp.189 %tmp.191;
+                putv self :justification %tmp.192;
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 628 18 ]
+                %tmp.193 = getm $.Toybox.Graphics;
+                %tmp.194 = getv %tmp.193 :FONT_TINY;
+                putv self :font %tmp.194;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 627; @position = 18; ]
+            const justification;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 628; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 631; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 632; @position = 18; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 633; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 636; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 637; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__warning.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 638; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 639; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 640; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 643; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 644; @position = 18; ]
+            const x as Number = 130;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 645; @position = 18; ]
+            const y as Number = 39;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 646; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 647; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 650; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 651; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 654; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+[ "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" 656 18 ]
+                %tmp.195 = getm $.Toybox.Graphics;
+                %tmp.196 = getv %tmp.195 :COLOR_TRANSPARENT;
+                putv self :background %tmp.196;
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 655; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 656; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 659; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 659; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 660; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 661; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 664; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 665; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 666; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 669; ]
+        module confirmation_size__body {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 669; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 670; @position = 18; ]
+            const width as Number = 156;
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 671; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 674; ]
+        module system_icon_positive__check {
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 674; ]
+            <init> {
+            }
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 675; @position = 18; ]
+            const filename as String = "/home/adam/.Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__check.svg";
+            [ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 676; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
