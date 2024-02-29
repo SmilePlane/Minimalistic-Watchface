@@ -1,0 +1,57 @@
+<settings>
+ <setting propertyKey="@Properties.XDD" title="@Strings.color" prompt="@Strings.color">
+        <settingConfig type="list">
+            <listEntry value="16711680">@Strings.czerwony</listEntry>
+            <listEntry value="16777215">@Strings.bialy</listEntry>
+            <listEntry value="39423">@Strings.niebieski</listEntry>
+            <listEntry value="16776960">@Strings.zolty</listEntry>
+                        <listEntry value="32768">@Strings.zielony</listEntry>    
+                        <listEntry value="8388736">@Strings.fioletowy</listEntry> 
+                         <listEntry value="0">@Strings.none</listEntry>            
+        </settingConfig>
+        </setting>
+ <setting propertyKey="@Properties.num_col" title="@Strings.w_color" prompt="@Strings.color">
+        <settingConfig type="list">
+            <listEntry value="16711680">@Strings.czerwony</listEntry>
+            <listEntry value="16777215">@Strings.bialy</listEntry>
+            <listEntry value="39423">@Strings.niebieski</listEntry>
+                        <listEntry value="16776960">@Strings.zolty</listEntry>
+                        <listEntry value="32768">@Strings.zielony</listEntry>    
+                        <listEntry value="8388736">@Strings.fioletowy</listEntry> 
+                         <listEntry value="0">@Strings.none</listEntry>
+        </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.second_show" title="@Strings.second">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.seconds_color" title="@Strings.second2" prompt="@Strings.color">
+        <settingConfig type="list">
+            <listEntry value="16711680">@Strings.czerwony</listEntry>
+            <listEntry value="16777215">@Strings.bialy</listEntry>
+            <listEntry value="39423">@Strings.niebieski</listEntry>
+                        <listEntry value="16776960">@Strings.zolty</listEntry>
+                        <listEntry value="32768">@Strings.zielony</listEntry>    
+                        <listEntry value="8388736">@Strings.fioletowy</listEntry> 
+                         <listEntry value="0">@Strings.none</listEntry>
+        </settingConfig>
+        </setting>
+<setting propertyKey="@Properties.date_color" title="@Strings.date_color" prompt="@Strings.color">
+        <settingConfig type="list">
+            <listEntry value="16711680">@Strings.czerwony</listEntry>
+            <listEntry value="16777215">@Strings.bialy</listEntry>
+            <listEntry value="39423">@Strings.niebieski</listEntry>
+                        <listEntry value="16776960">@Strings.zolty</listEntry>
+                        <listEntry value="32768">@Strings.zielony</listEntry>    
+                        <listEntry value="8388736">@Strings.fioletowy</listEntry> 
+                         <listEntry value="0">@Strings.none</listEntry>
+        </settingConfig>
+        </setting>
+     <setting propertyKey="@Properties.data_val" title="@Strings.add_data" prompt="@Strings.color">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.none</listEntry>
+            <listEntry value="1">@Strings.steps</listEntry>
+            <listEntry value="2">@Strings.heart_rate</listEntry>
+            <listEntry value="3">@Strings.battery</listEntry>        
+        </settingConfig>
+        </setting>
+</settings>

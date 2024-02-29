@@ -1,0 +1,8 @@
+<layout id="WatchFace">
+<label id="TimeLabel" color="Graphics.COLOR_BLUE" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" text="ERR"/>
+<label id="bottom"  color="Graphics.COLOR_BLUE" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+<label id="sec"  color="Graphics.COLOR_BLUE" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+<label id="date"  color="Graphics.COLOR_BLUE" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" text="PE"/>
+    </layout>
+
+

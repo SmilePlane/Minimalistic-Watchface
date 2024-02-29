@@ -1,0 +1,13 @@
+<properties>
+	<property id="XDD" type="number">16711680</property>
+	<property id="LOL" type="boolean">true</property>
+	<property id="num_col" type="number">39423</property>
+	<property id="blue" type="number">39423</property>
+	<property id="white" type="number">16777215</property>
+	<property id="red" type="number">16711680</property>
+	<property id="second_show" type="boolean">true</property>
+	<property id="data_val" type="number">0</property>
+	<property id="seconds_color" type="number">39423</property>
+	<property id="date_color" type="number">39423</property>
+	<property id="datafiled_color" type="number">39423</property>					
+</properties>
