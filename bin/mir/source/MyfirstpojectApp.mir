@@ -1,0 +1,88 @@
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 4; ]
+import Toybox.Graphics;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 5; ]
+import Toybox.System;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 7; ]
+class MyfirstpojectApp extends Application.AppBase{
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 9; ]
+    function initialize() as Void {
+_home_adam_Documents_Myfirstpoject_source_MyfirstpojectApp_mc_9_26_start:
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 10 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_adam_Documents_Myfirstpoject_source_MyfirstpojectApp_mc_9_26_stop:
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 14; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 18; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 22; ]
+    function getInitialView() {
+_home_adam_Documents_Myfirstpoject_source_MyfirstpojectApp_mc_22_29_start:
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 23 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :MyfirstpojectView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_home_adam_Documents_Myfirstpoject_source_MyfirstpojectApp_mc_22_29_stop:
+    }
+    [ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 25; ]
+    function onSettingsChanged() {
+_home_adam_Documents_Myfirstpoject_source_MyfirstpojectApp_mc_25_33_start:
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 26 4 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "DZIALA";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 27 4 ]
+        %tmp.5 = getv ? :sec;
+        %tmp.6 = getv function %tmp.5 :setColor;
+        %tmp.8 = getv ? :Properties;
+        %tmp.9 = getv function %tmp.8 :getValue;
+        %tmp.10 = "seconds_color";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        invoke %tmp.5 %tmp.6(%tmp.11);
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 28 4 ]
+        %tmp.13 = getv ? :widok;
+        %tmp.14 = getv function %tmp.13 :setColor;
+        %tmp.16 = getv ? :Properties;
+        %tmp.17 = getv function %tmp.16 :getValue;
+        %tmp.18 = "num_col";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        invoke %tmp.13 %tmp.14(%tmp.19);
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 29 4 ]
+        %tmp.21 = getv ? :date;
+        %tmp.22 = getv function %tmp.21 :setColor;
+        %tmp.24 = getv ? :Properties;
+        %tmp.25 = getv function %tmp.24 :getValue;
+        %tmp.26 = "date_color";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        invoke %tmp.21 %tmp.22(%tmp.27);
+[ "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" 30 4 ]
+        %tmp.28 = getm $.Toybox.WatchUi;
+        %tmp.29 = getv function %tmp.28 :requestUpdate;
+        invoke %tmp.28 %tmp.29();
+_home_adam_Documents_Myfirstpoject_source_MyfirstpojectApp_mc_25_33_stop:
+    }
+}
+[ @file = "/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc"; @line = 1; ]
+<init> {
+}

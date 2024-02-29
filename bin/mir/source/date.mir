@@ -1,0 +1,52 @@
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 1; ]
+using Toybox.Time.Gregorian as :Calendar;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 2; ]
+using Toybox.Time;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 4; ]
+using Toybox.WatchUi;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 5; ]
+import Toybox.Graphics;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 6; ]
+using Toybox.Lang;
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 7; ]
+function data() {
+_home_adam_Documents_Myfirstpoject_source_date_mc_7_15_start:
+[ "/home/adam/Documents/Myfirstpoject/source/date.mc" 8 4 ]
+    [ "_home_adam_Documents_Myfirstpoject_source_date_mc_7_15_start" "_home_adam_Documents_Myfirstpoject_source_date_mc_7_15_stop" ]
+    %info.1 = local;
+    %tmp.1 = getm $.Toybox.Time.Gregorian;
+    %tmp.2 = getv function %tmp.1 :info;
+    %tmp.3 = getm $.Toybox.Time;
+    %tmp.4 = getv function %tmp.3 :now;
+    %tmp.5 = invoke %tmp.3 %tmp.4();
+    %tmp.6 = getm $.Toybox.Time;
+    %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+    %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+    lputv %info.1 %tmp.8;
+[ "/home/adam/Documents/Myfirstpoject/source/date.mc" 9 4 ]
+    [ "_home_adam_Documents_Myfirstpoject_source_date_mc_7_15_start" "_home_adam_Documents_Myfirstpoject_source_date_mc_7_15_stop" ]
+    %date_finish.2 = local;
+    %tmp.9 = getm $.Toybox.Lang;
+    %tmp.10 = getv function %tmp.9 :format;
+    %tmp.11 = "$1$ $2$";
+    %tmp.12 = newa 2;
+    %tmp.13 = lgetv %info.1;
+    %tmp.14 = getv %tmp.13 :day;
+    %tmp.15 = dup %tmp.12;
+    %tmp.16 = aputv %tmp.15 0 %tmp.14;
+    %tmp.17 = lgetv %info.1;
+    %tmp.18 = getv %tmp.17 :month;
+    %tmp.19 = dup %tmp.16;
+    %tmp.20 = aputv %tmp.19 1 %tmp.18;
+    %tmp.21 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.20);
+    lputv %date_finish.2 %tmp.21;
+[ "/home/adam/Documents/Myfirstpoject/source/date.mc" 10 4 ]
+    %tmp.23 = lgetv %date_finish.2;
+    ret %tmp.23;
+_home_adam_Documents_Myfirstpoject_source_date_mc_7_15_stop:
+}
+[ @file = "/home/adam/Documents/Myfirstpoject/source/date.mc"; @line = 1; ]
+<init> {
+}

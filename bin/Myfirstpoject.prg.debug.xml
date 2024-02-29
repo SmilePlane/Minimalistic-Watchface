@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/home/adam/Documents/Myfirstpoject/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/date.mc" id="1" lineNum="7" parent="globals" pc="268435460" symbol="data"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/date.mc" id="1" lineNum="8" parent="globals" pc="268435472" symbol="data"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/date.mc" id="1" lineNum="9" parent="globals" pc="268435509" symbol="data"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/date.mc" id="1" lineNum="10" parent="globals" pc="268435569" symbol="data"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435572" symbol="&lt;init&gt;"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="3" lineNum="7" parent="globals/MyfirstpojectApp" pc="268435596" symbol="&lt;init&gt;"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="4" lineNum="14" parent="globals/MyfirstpojectApp" pc="268435615" symbol="onStart"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="5" lineNum="25" parent="globals/MyfirstpojectApp" pc="268435618" symbol="onSettingsChanged"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="5" lineNum="26" parent="globals/MyfirstpojectApp" pc="268435620" symbol="onSettingsChanged"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="5" lineNum="27" parent="globals/MyfirstpojectApp" pc="268435641" symbol="onSettingsChanged"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="5" lineNum="28" parent="globals/MyfirstpojectApp" pc="268435679" symbol="onSettingsChanged"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="5" lineNum="29" parent="globals/MyfirstpojectApp" pc="268435717" symbol="onSettingsChanged"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="5" lineNum="30" parent="globals/MyfirstpojectApp" pc="268435755" symbol="onSettingsChanged"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="6" lineNum="22" parent="globals/MyfirstpojectApp" pc="268435772" symbol="getInitialView"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="6" lineNum="23" parent="globals/MyfirstpojectApp" pc="268435774" symbol="getInitialView"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="7" lineNum="9" parent="globals/MyfirstpojectApp" pc="268435815" symbol="initialize"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="7" lineNum="10" parent="globals/MyfirstpojectApp" pc="268435817" symbol="initialize"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectApp.mc" id="8" lineNum="18" parent="globals/MyfirstpojectApp" pc="268435836" symbol="onStop"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="9" lineNum="18" parent="globals/MyfirstpojectView" pc="268435839" symbol="&lt;init&gt;"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="9" lineNum="24" parent="globals/MyfirstpojectView" pc="268435857" symbol="&lt;init&gt;"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="9" lineNum="25" parent="globals/MyfirstpojectView" pc="268435886" symbol="&lt;init&gt;"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="10" lineNum="91" parent="globals/MyfirstpojectView" pc="268435916" symbol="onExitSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="10" lineNum="92" parent="globals/MyfirstpojectView" pc="268435918" symbol="onExitSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="10" lineNum="93" parent="globals/MyfirstpojectView" pc="268435939" symbol="onExitSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="10" lineNum="94" parent="globals/MyfirstpojectView" pc="268435955" symbol="onExitSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="28" parent="globals/MyfirstpojectView" pc="268435979" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="29" parent="globals/MyfirstpojectView" pc="268435983" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="30" parent="globals/MyfirstpojectView" pc="268436024" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="31" parent="globals/MyfirstpojectView" pc="268436048" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="32" parent="globals/MyfirstpojectView" pc="268436072" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="33" parent="globals/MyfirstpojectView" pc="268436100" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="34" parent="globals/MyfirstpojectView" pc="268436128" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="35" parent="globals/MyfirstpojectView" pc="268436156" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="36" parent="globals/MyfirstpojectView" pc="268436184" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="37" parent="globals/MyfirstpojectView" pc="268436230" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="38" parent="globals/MyfirstpojectView" pc="268436276" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="39" parent="globals/MyfirstpojectView" pc="268436328" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="40" parent="globals/MyfirstpojectView" pc="268436374" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="12" lineNum="45" parent="globals/MyfirstpojectView" pc="268436502" symbol="onLayout"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="13" lineNum="98" parent="globals/MyfirstpojectView" pc="268436524" symbol="onEnterSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="13" lineNum="99" parent="globals/MyfirstpojectView" pc="268436526" symbol="onEnterSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="13" lineNum="100" parent="globals/MyfirstpojectView" pc="268436547" symbol="onEnterSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="13" lineNum="101" parent="globals/MyfirstpojectView" pc="268436563" symbol="onEnterSleep"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="14" lineNum="19" parent="globals/MyfirstpojectView" pc="268436587" symbol="initialize"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="14" lineNum="20" parent="globals/MyfirstpojectView" pc="268436589" symbol="initialize"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="15" lineNum="86" parent="globals/MyfirstpojectView" pc="268436608" symbol="onHide"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="15" lineNum="87" parent="globals/MyfirstpojectView" pc="268436610" symbol="onHide"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="103" parent="globals/MyfirstpojectView" pc="268436632" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="104" parent="globals/MyfirstpojectView" pc="268436634" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="105" parent="globals/MyfirstpojectView" pc="268436657" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="107" parent="globals/MyfirstpojectView" pc="268436670" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="109" parent="globals/MyfirstpojectView" pc="268436680" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="110" parent="globals/MyfirstpojectView" pc="268436700" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="115" parent="globals/MyfirstpojectView" pc="268436720" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="121" parent="globals/MyfirstpojectView" pc="268436740" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="127" parent="globals/MyfirstpojectView" pc="268436760" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="111" parent="globals/MyfirstpojectView" pc="268436783" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="114" parent="globals/MyfirstpojectView" pc="268436793" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="116" parent="globals/MyfirstpojectView" pc="268436796" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="117" parent="globals/MyfirstpojectView" pc="268436806" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="120" parent="globals/MyfirstpojectView" pc="268436873" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="122" parent="globals/MyfirstpojectView" pc="268436876" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="123" parent="globals/MyfirstpojectView" pc="268436886" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="124" parent="globals/MyfirstpojectView" pc="268436930" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="125" parent="globals/MyfirstpojectView" pc="268436984" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="126" parent="globals/MyfirstpojectView" pc="268437004" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="128" parent="globals/MyfirstpojectView" pc="268437007" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="129" parent="globals/MyfirstpojectView" pc="268437017" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="16" lineNum="130" parent="globals/MyfirstpojectView" pc="268437093" symbol="ustawiania"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="56" parent="globals/MyfirstpojectView" pc="268437098" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="57" parent="globals/MyfirstpojectView" pc="268437102" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="58" parent="globals/MyfirstpojectView" pc="268437136" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="59" parent="globals/MyfirstpojectView" pc="268437170" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="60" parent="globals/MyfirstpojectView" pc="268437204" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="61" parent="globals/MyfirstpojectView" pc="268437238" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="62" parent="globals/MyfirstpojectView" pc="268437254" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="63" parent="globals/MyfirstpojectView" pc="268437264" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="65" parent="globals/MyfirstpojectView" pc="268437287" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="66" parent="globals/MyfirstpojectView" pc="268437311" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="67" parent="globals/MyfirstpojectView" pc="268437397" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="69" parent="globals/MyfirstpojectView" pc="268437420" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="72" parent="globals/MyfirstpojectView" pc="268437449" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="73" parent="globals/MyfirstpojectView" pc="268437473" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="74" parent="globals/MyfirstpojectView" pc="268437485" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="75" parent="globals/MyfirstpojectView" pc="268437502" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="76" parent="globals/MyfirstpojectView" pc="268437539" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="77" parent="globals/MyfirstpojectView" pc="268437593" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="78" parent="globals/MyfirstpojectView" pc="268437623" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/source/MyfirstpojectView.mc" id="17" lineNum="79" parent="globals/MyfirstpojectView" pc="268437640" symbol="onUpdate"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="20" parent="globals/Rez/Layouts" pc="268437710" symbol="WatchFace"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="21" parent="globals/Rez/Layouts" pc="268437722" symbol="WatchFace"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="23" parent="globals/Rez/Layouts" pc="268437821" symbol="WatchFace"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="25" parent="globals/Rez/Layouts" pc="268437907" symbol="WatchFace"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="27" parent="globals/Rez/Layouts" pc="268437993" symbol="WatchFace"/>
+<entry filename="/home/adam/Documents/Myfirstpoject/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="29" parent="globals/Rez/Layouts" pc="268438092" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="32" symbol="bialy"/>
+<entry id="8389346" symbol="text"/>
+<entry field="true" id="42" symbol="second2"/>
+<entry field="true" id="31" symbol="bateria"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="46" symbol="zolty"/>
+<entry field="true" id="17" symbol="sh_sec"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="11" symbol="bot"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="38" symbol="heart_rate"/>
+<entry field="true" id="23" symbol="kolor"/>
+<entry field="true" id="39" symbol="kroki"/>
+<entry field="true" id="22" symbol="hei"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="16" symbol="myBitmap"/>
+<entry field="true" id="29" symbol="AppName"/>
+<entry field="true" id="8389339" symbol="second"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry field="true" id="37" symbol="fioletowy"/>
+<entry field="true" id="13" symbol="date"/>
+<entry field="true" id="8389807" method="true" symbol="data"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8389345" symbol="rezId"/>
+<entry field="true" id="8388724" symbol="battery"/>
+<entry field="true" id="8388912" symbol="steps"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="10" object="true" symbol="MyfirstpojectView"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="40" symbol="niebieski"/>
+<entry field="true" id="35" symbol="d_color"/>
+<entry field="true" id="28" symbol="heart"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="43" symbol="show_date"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="24" symbol="liczba"/>
+<entry id="21" module="true" symbol="Menus"/>
+<entry id="9" object="true" symbol="MyfirstpojectApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="19" symbol="widok"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="14" symbol="dc"/>
+<entry field="true" id="8388722" symbol="sec"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="44" symbol="w_color"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="36" symbol="date_color"/>
+<entry field="true" id="18" symbol="timeString"/>
+<entry field="true" id="41" symbol="none"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="33" symbol="czarny"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="30" symbol="add_data"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="45" symbol="zielony"/>
+<entry field="true" id="27" symbol="LauncherIcon"/>
+<entry field="true" id="12" symbol="clockTime"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388643" module="true" symbol="Sensor"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="26" symbol="wid"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="20" module="true" symbol="Layouts"/>
+<entry id="25" method="true" symbol="ustawiania"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry field="true" id="15" symbol="labelText"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="34" symbol="czerwony"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435571" name="info" stackId="1" startPc="268435472"/>
+<entry endPc="268435571" name="date_finish" stackId="2" startPc="268435472"/>
+<entry arg="true" endPc="268436523" name="dc" stackId="1" startPc="268435979"/>
+<entry endPc="268436522" name="widok" stackId="2" startPc="268435983"/>
+<entry endPc="268436522" name="bot" stackId="3" startPc="268435983"/>
+<entry endPc="268436522" name="sec" stackId="4" startPc="268435983"/>
+<entry endPc="268436522" name="date" stackId="5" startPc="268435983"/>
+<entry arg="true" endPc="268437097" name="sec" stackId="1" startPc="268436632"/>
+<entry arg="true" endPc="268437097" name="bot" stackId="2" startPc="268436632"/>
+<entry arg="true" endPc="268437097" name="dc" stackId="3" startPc="268436632"/>
+<entry arg="true" endPc="268437709" name="dc" stackId="1" startPc="268437098"/>
+<entry endPc="268437708" name="b" stackId="2" startPc="268437102"/>
+<entry endPc="268437416" name="timeString" stackId="3" startPc="268437311"/>
+<entry arg="true" endPc="268438138" name="dc" stackId="1" startPc="268437710"/>
+<entry endPc="268438138" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437722"/>
+<entry endPc="268438138" name="rez_cmp_local_text_bottom" stackId="3" startPc="268437722"/>
+<entry endPc="268438138" name="rez_cmp_local_text_sec" stackId="4" startPc="268437722"/>
+<entry endPc="268438138" name="rez_cmp_local_text_date" stackId="5" startPc="268437722"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="czerwony"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="date_color"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="zielony"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="czarny"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="show_date"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="bateria"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="second"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heart"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="add_data"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="bialy"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="kroki"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="zolty"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="second2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="battery"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="fioletowy"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="heart_rate"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="color"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="w_color"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="d_color"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="none"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="niebieski"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="steps"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="238" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/MyfirstpojectApp" offset="317" parentId="globals" symbolId="MyfirstpojectApp" type="class"/>
+<dataEntry label="globals/MyfirstpojectView" offset="396" parentId="globals" symbolId="MyfirstpojectView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="531" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="578" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="617" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="648" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="679" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="886" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435571" name="data" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435595" name="&lt;init&gt;" parent="Rez" startPc="268435572">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435614" name="&lt;init&gt;" parent="MyfirstpojectApp" startPc="268435596">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435617" name="onStart" parent="MyfirstpojectApp" startPc="268435615">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435771" name="onSettingsChanged" parent="MyfirstpojectApp" startPc="268435618">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435814" name="getInitialView" parent="MyfirstpojectApp" startPc="268435772">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435835" name="initialize" parent="MyfirstpojectApp" startPc="268435815">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435838" name="onStop" parent="MyfirstpojectApp" startPc="268435836">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435915" name="&lt;init&gt;" parent="MyfirstpojectView" startPc="268435839">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435978" name="onExitSleep" parent="MyfirstpojectView" startPc="268435916">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="MyfirstpojectView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436523" name="onLayout" parent="MyfirstpojectView" startPc="268435979">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436586" name="onEnterSleep" parent="MyfirstpojectView" startPc="268436524">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436607" name="initialize" parent="MyfirstpojectView" startPc="268436587">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436631" name="onHide" parent="MyfirstpojectView" startPc="268436608">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437097" name="ustawiania" parent="MyfirstpojectView" startPc="268436632">
+<param id="sec"/>
+<param id="bot"/>
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437709" name="onUpdate" parent="MyfirstpojectView" startPc="268437098">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438138" name="WatchFace" parent="Layouts" startPc="268437710">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

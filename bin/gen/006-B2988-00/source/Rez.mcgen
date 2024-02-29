@@ -1,0 +1,60 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var heart as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :text=>"ERR", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            var rez_cmp_local_text_bottom = new WatchUi.Text({:identifier=>"bottom", :color=>Graphics.COLOR_BLUE, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_sec = new WatchUi.Text({:identifier=>"sec", :color=>Graphics.COLOR_BLUE, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_date = new WatchUi.Text({:identifier=>"date", :color=>Graphics.COLOR_BLUE, :text=>"PE", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_bottom, rez_cmp_local_text_sec, rez_cmp_local_text_date] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var bateria as Symbol;
+        (:initialized) var czerwony as Symbol;
+        (:initialized) var zielony as Symbol;
+        (:initialized) var color as Symbol;
+        (:initialized) var fioletowy as Symbol;
+        (:initialized) var czarny as Symbol;
+        (:initialized) var add_data as Symbol;
+        (:initialized) var heart_rate as Symbol;
+        (:initialized) var none as Symbol;
+        (:initialized) var battery as Symbol;
+        (:initialized) var steps as Symbol;
+        (:initialized) var date_color as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var second as Symbol;
+        (:initialized) var bialy as Symbol;
+        (:initialized) var w_color as Symbol;
+        (:initialized) var second2 as Symbol;
+        (:initialized) var show_date as Symbol;
+        (:initialized) var niebieski as Symbol;
+        (:initialized) var zolty as Symbol;
+        (:initialized) var d_color as Symbol;
+        (:initialized) var kroki as Symbol;
+    } // Strings
+} // Rez
