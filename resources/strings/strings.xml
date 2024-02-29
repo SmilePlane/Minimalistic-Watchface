@@ -1,0 +1,24 @@
+<strings>
+    <string id="AppName">My first poject</string>
+    <string id="color">round color</string>
+    <string id="czarny">black</string>
+    <string id="bialy">white</string>
+    <string id="niebieski">blue</string>
+    <string id="czerwony">red</string>
+    <string id="zolty">yellow</string>
+    <string id="zielony">green</string>
+    <string id="fioletowy">purple</string>
+    <string id="kroki">steps</string>
+    <string id="bateria">battery</string>
+    <string id="w_color">time color</string>
+    <string id="d_color">data color </string>
+    <string id="add_data">additinal data filed</string>
+    <string id="second">show seconds</string>
+    <string id="second2">seconds color</string>
+    <string id="steps">steps</string>
+    <string id="heart_rate">heart rate</string>
+    <string id="battery">battery</string>
+    <string id="none">none</string>
+    <string id="date_color">date color</string>
+    <string id="show_date">show date</string>
+</strings>
