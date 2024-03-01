@@ -9,5 +9,6 @@
 	<property id="data_val" type="number">0</property>
 	<property id="seconds_color" type="number">39423</property>
 	<property id="date_color" type="number">39423</property>
-	<property id="datafiled_color" type="number">39423</property>					
+	<property id="datafiled_color" type="number">39423</property>
+	<property id="display" type="boolean">false</property>
 </properties>
